@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.pyo
+*.pyd
+
+# Environment / Virtualenv
+.env
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files gerados que não precisam ir para o repositório
+data/raw/
+data/interim/
+data/processed/
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Python virtual environments
+pip-wheel-metadata/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# dotenv environment variables
+.env
+
+# Others
+*.sqlite3
